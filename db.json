@@ -6,10 +6,10 @@
   ],
 
   "cuentas": [
-    { "id": 1, iduser: "1", "codigo": "CH0005" },
-    { "id": 2, iduser: "1", "codigo": "CH0014" },
-    { "id": 3, iduser: "2", "codigo": "GS0023" },
-    { "id": 4, iduser: "3", "codigo": "CX0111" }
+    { "id": 1, "iduser": "1", "codigo": "CH0005" },
+    { "id": 2, "iduser": "1", "codigo": "CH0014" },
+    { "id": 3, "iduser": "2", "codigo": "GS0023" },
+    { "id": 4, "iduser": "3", "codigo": "CX0111" }
   ],
 
   "tipotransaccion":[
