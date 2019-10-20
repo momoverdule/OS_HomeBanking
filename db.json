@@ -16,5 +16,5 @@
     { "id": 1, "tipo": "Extracción"},
     { "id": 2, "tipo": "Deposito"},
     { "id": 3, "tipo": "Transferencia"}
-  ],
+  ]
 }
