@@ -27,9 +27,9 @@
   ],
   
   "transacciones":[
-    { "id": 1, "date": "01/01/2019" ,"idCuenta": 3, "transactionTypeId": "4", "amount": "0", "balance": "0"},
-    { "id": 1, "date": "01/01/2019" ,"idCuenta": 3, "transactionTypeId": "2", "amount": "350", "balance": "350"},
-    { "id": 2, "date": "02/01/2019" ,"idCuenta": 3, "transactionTypeId": "1", "amount": "200", "balance": "150"},
-    { "id": 3, "date": "05/03/2019" ,"idCuenta": 3, "transactionTypeId": "1", "amount": "50", "balance": "100"}
+    { "id": 1, "date": "2019-01-01" ,"idCuenta": 3, "transactionTypeId": "4", "amount": "0", "balance": "0"},
+    { "id": 1, "date": "2019-01-01" ,"idCuenta": 3, "transactionTypeId": "2", "amount": "350", "balance": "350"},
+    { "id": 2, "date": "2019-02-01" ,"idCuenta": 3, "transactionTypeId": "1", "amount": "200", "balance": "150"},
+    { "id": 3, "date": "2019-05-03" ,"idCuenta": 3, "transactionTypeId": "1", "amount": "50", "balance": "100"}
   ]
 }
