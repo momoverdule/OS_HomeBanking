@@ -9,7 +9,9 @@
     { "id": 1, "userId": "1", "code": "CH0005" },
     { "id": 2, "userId": "1", "code": "CH0014" },
     { "id": 3, "userId": "2", "code": "GS0023" },
-    { "id": 4, "userId": "3", "code": "CX0111" }
+    { "id": 4, "userId": "2", "code": "GS1051" },
+    { "id": 5, "userId": "2", "code": "CX0409" },
+    { "id": 6, "userId": "3", "code": "CX0111" }
   ],
 
   "transactionType":[
