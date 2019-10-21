@@ -22,6 +22,6 @@
   
   "currencyType":[
     { "id": 1, "type": "Dolar", "code": "USD"},
-    { "id": 2, "type": "Peso Argentino", "code": "ARS"},
+    { "id": 2, "type": "Peso Argentino", "code": "ARS"}
   ]
 }
