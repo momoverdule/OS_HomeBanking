@@ -6,12 +6,12 @@
   ],
 
   "accounts": [
-    { "id": 1, "userId": "1", "code": "CH0005", "balance": "0" },
-    { "id": 2, "userId": "1", "code": "CH0014", "balance": "0"  },
-    { "id": 3, "userId": "2", "code": "GS0023", "balance": "100" },
-    { "id": 4, "userId": "2", "code": "GS1051", "balance": "0"  },
-    { "id": 5, "userId": "2", "code": "CX0409", "balance": "0"  },
-    { "id": 6, "userId": "3", "code": "CX0111", "balance": "0"  }
+    { "id": 1, "userId": "1", "code": "CH0005", "balance": "0", "currencyTypeId": "2" },
+    { "id": 2, "userId": "1", "code": "CH0014", "balance": "0", "currencyTypeId": "2"  },
+    { "id": 3, "userId": "2", "code": "GS0023", "balance": "100", "currencyTypeId": "1"  },
+    { "id": 4, "userId": "2", "code": "GS1051", "balance": "0", "currencyTypeId": "2"   },
+    { "id": 5, "userId": "2", "code": "CX0409", "balance": "0", "currencyTypeId": "2"   },
+    { "id": 6, "userId": "3", "code": "CX0111", "balance": "0", "currencyTypeId": "2"   }
   ],
 
   "transactionType":[
