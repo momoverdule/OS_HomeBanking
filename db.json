@@ -18,7 +18,7 @@
     { "id": 1, "type": "Extract"},
     { "id": 2, "type": "Deposit"},
     { "id": 3, "type": "Transfer"},
-    { "id": 3, "type": "Account Creation"}
+    { "id": 4, "type": "Account Creation"}
   ],
   
   "currencyType":[
