@@ -7,21 +7,29 @@
 
   "accounts": [
     { "id": 1, "userId": "1", "code": "CH0005", "balance": "0", "currencyTypeId": "2" },
-    { "id": 2, "userId": "1", "code": "CH0014", "balance": "0", "currencyTypeId": "2"  },
-    { "id": 3, "userId": "2", "code": "GS0023", "balance": "100", "currencyTypeId": "1"  },
-    { "id": 4, "userId": "2", "code": "GS1051", "balance": "0", "currencyTypeId": "2"   },
-    { "id": 5, "userId": "2", "code": "CX0409", "balance": "0", "currencyTypeId": "2"   },
-    { "id": 6, "userId": "3", "code": "CX0111", "balance": "0", "currencyTypeId": "2"   }
+    { "id": 2, "userId": "1", "code": "CH0014", "balance": "0", "currencyTypeId": "2" },
+    { "id": 3, "userId": "2", "code": "GS0023", "balance": "100", "currencyTypeId": "1" },
+    { "id": 4, "userId": "2", "code": "GS1051", "balance": "0", "currencyTypeId": "2" },
+    { "id": 5, "userId": "2", "code": "CX0409", "balance": "0", "currencyTypeId": "2" },
+    { "id": 6, "userId": "3", "code": "CX0111", "balance": "0", "currencyTypeId": "2" }
   ],
 
   "transactionType":[
     { "id": 1, "type": "Extract"},
     { "id": 2, "type": "Deposit"},
-    { "id": 3, "type": "Transfer"}
+    { "id": 3, "type": "Transfer"},
+    { "id": 3, "type": "Account Creation"}
   ],
   
   "currencyType":[
     { "id": 1, "type": "Dolar", "code": "USD" },
     { "id": 2, "type": "Peso Argentino", "code": "ARS" }
+  ],
+  
+  "transacciones":[
+    { "id": 1, "date": "01/01/2019" ,"idCuenta": 2, "transactionTypeId": "4", "amount": "0", "balance": "0"},
+    { "id": 1, "date": "01/01/2019" ,"idCuenta": 2, "transactionTypeId": "2", "amount": "350", "balance": "350"},
+    { "id": 2, "date": "02/01/2019" ,"idCuenta": 2, "transactionTypeId": "1", "amount": "200", "balance": "150"},
+    { "id": 3, "date": "05/03/2019" ,"idCuenta": 2, "transactionTypeId": "1", "amount": "50", "balance": "100"}
   ]
 }
