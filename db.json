@@ -28,6 +28,11 @@
     {"id": "3", "transactionType": "Deposit" },
     {"id": "4", "transactionType": "Transfer" }
   ],
+  
+  "currencyTypes": [
+    {"id": "1", "currencyType": "Peso Argentino", "currencyCode": "ARS" },
+    {"id": "2", "currencyType": "Dolar", "currencyCode": "USD" }  
+  ],
 
     
   "transacciones":[
