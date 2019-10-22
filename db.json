@@ -7,12 +7,18 @@
 
   
   "accounts": [
-    { "id": 1, "userId": "1", "code": "CH0005", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS" },
-    { "id": 2, "userId": "1", "code": "CH0014", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS" },
-    { "id": 3, "userId": "2", "code": "GS0023", "balance": "100", "currencyType": "Dolar", "currencyCode": "USD" },
-    { "id": 4, "userId": "2", "code": "GS1051", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS" },
-    { "id": 5, "userId": "2", "code": "CX0409", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS" },
-    { "id": 6, "userId": "3", "code": "CX0111", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS" }
+    { "id": 1, "userId": "1", "code": "CH0005", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS", "type": "Current account" },
+    { "id": 2, "userId": "1", "code": "CH0014", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS", "type": "Current account" },
+    { "id": 3, "userId": "2", "code": "GS0023", "balance": "100", "currencyType": "Dolar", "currencyCode": "USD", "type": "Current account" },
+    { "id": 4, "userId": "2", "code": "GS1051", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS", "type": "Savings" },
+    { "id": 5, "userId": "2", "code": "CX0409", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS", "type": "Current account" },
+    { "id": 6, "userId": "3", "code": "CX0111", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS", "type": "Current account" }
+  ],
+  
+  "accountTypes": [
+    {"id": "1", "type": "Current account" },
+    {"id": "2", "type": "Savings" },
+    {"id": "3", "type": "Fixed term account" }
   ],
 
     
