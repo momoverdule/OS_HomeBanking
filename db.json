@@ -20,6 +20,14 @@
     {"id": "2", "accountType": "Savings" },
     {"id": "3", "accountType": "Fixed term account" }
   ],
+  
+  
+  "transactionTypes": [
+    {"id": "1", "transactionType": "Account Creation" },
+    {"id": "2", "transactionType": "Extraction" },
+    {"id": "3", "transactionType": "Deposit" },
+    {"id": "4", "transactionType": "Transfer" }
+  ],
 
     
   "transacciones":[
