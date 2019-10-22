@@ -1,11 +1,4 @@
-{
-  "users": [
-    { "id": 1, "user": "Facundo Zarbá" },
-    { "id": 2, "user": "Ana Dantur" },
-    { "id": 3, "user": "Lucía Zarbá" }
-  ],
-
-  
+{  
   "accounts": [
     { "id": 1, "userId": "1", "code": "CH0005", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS", "accountType": "Current account" },
     { "id": 2, "userId": "1", "code": "CH0014", "balance": "0", "currencyType": "Peso Argentino", "currencyCode": "ARS", "accountType": "Current account" },
